@@ -3,9 +3,7 @@ package util;
 import util.Packing;
 
 public interface Item {
-    
-   public String name();
-   public Packing packing();
-   public float price();	
-    
+   String name();
+   Packing packing();
+   float price();
 }

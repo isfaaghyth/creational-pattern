@@ -25,7 +25,7 @@ public class Kue {
     public void tampilkanKue() {
         for (Item i: items) {
             System.out.println("Nama Kue: " + i.name());
-            System.out.println("Pembungkus: " + i.packing());
+            System.out.println("Pembungkus: " + i.packing().pack());
             System.out.println("Harga: " + i.price());
         }
     }

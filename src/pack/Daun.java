@@ -6,7 +6,7 @@ public class Daun implements Packing {
 
     @Override
     public String pack() {
-        return "pack.Daun";
+        return "Daun";
     }
     
 }
