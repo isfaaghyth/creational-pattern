@@ -1,9 +1,0 @@
-package kuelebaran;
-
-/**
- *
- * @author agung
- */
-public interface Packing {
-    public String pack();
-}
