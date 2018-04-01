@@ -1,4 +1,4 @@
-package meals;
+package kue.kering;
 
 import type.KueKering;
 

@@ -5,7 +5,7 @@ import util.Item;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Meal {
+public class Kue {
     private List<Item> items = new ArrayList<>();
 
     public void tambahKue(Item item) {

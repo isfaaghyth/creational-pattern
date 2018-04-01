@@ -1,17 +1,17 @@
-package meals;
+package kue.basah;
 
 import type.KueBasah;
 
-public class Nagosari extends KueBasah {
+public class Pancong extends KueBasah {
 
     @Override
     public float price() {
-        return 10.0f;
+       return 5.0f;
     }
 
     @Override
     public String name() {
-        return "Nagosari";
+        return "Pancong";
     }
     
 }
