@@ -1,3 +1,7 @@
+package meal;
+
+import type.KueBasah;
+
 public class Pancong extends KueBasah {
 
     @Override

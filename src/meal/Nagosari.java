@@ -1,3 +1,7 @@
+package meal;
+
+import type.KueBasah;
+
 public class Nagosari extends KueBasah {
 
     @Override

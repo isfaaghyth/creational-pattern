@@ -1,3 +1,7 @@
+package meal;
+
+import type.KueKering;
+
 public class Kukis extends KueKering {
 
     @Override
