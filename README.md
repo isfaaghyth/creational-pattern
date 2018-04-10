@@ -23,3 +23,23 @@ public interface Packing {
 ```
 Pada interface ini, penerapan sebagai pola object untuk mengidentifikasi jenis packing nya.
 
+3. Membuat ```implements()``` Packing
+```java
+
+package pack;
+
+import util.Packing;
+
+public class Topples implements Packing {
+
+    @Override
+    public String pack() {
+       return "Topples";
+    }
+    
+}
+```
+Program diatas mengimplements dari interface Packing bahwa keluaran dari program tersebut adalah packing menggunakan topples
+
+4.
+
