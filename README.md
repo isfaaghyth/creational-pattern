@@ -41,5 +41,7 @@ public class Topples implements Packing {
 ```
 Program diatas mengimplements dari interface Packing bahwa keluaran dari program tersebut adalah packing menggunakan topples
 
-4.
+4.Membuat ```implements()``` Packing
+```java
+
 
