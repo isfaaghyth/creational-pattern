@@ -169,6 +169,25 @@ public class Nagosari extends KueBasah {
 }
 ```
 ```java
+package kue.basah;
+
+import type.KueBasah;
+
+public class Pancong extends KueBasah {
+
+    @Override
+    public float price() {
+       return 5.0f;
+    }
+
+    @Override
+    public String name() {
+        return "Pancong";
+    }
+    
+}
+```
+Program diatas mengekstends dari kelas KueBasah, dimana pada object ini mendefinisikan kue basah jenis Nagosari dan Pancong dengan harga yang berbeda
 
 
 
