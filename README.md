@@ -58,6 +58,27 @@ public class Daun implements Packing {
 ```
 Program diatas mengimplements dari interface Packing bahwa keluaran dari program tersebut adalah packing menggunakan Daun
 
-5.
+5.Membuat ```implements()``` Item
+```java
+package type;
+
+import pack.Topples;
+import util.Item;
+import util.Packing;
+
+public abstract class KueKering implements Item {
+    
+    @Override
+    public Packing packing() {
+        return new Topples();
+    }
+
+    @Override
+    public abstract float price();
+        
+    
+}
+```
+Program diatas mengimplements dari interface item dimana program diatas menjelaskan utk kue kering keluaran packingnya adalah topples dengan harga tertentu
 
 
