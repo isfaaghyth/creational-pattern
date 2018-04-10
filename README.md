@@ -12,3 +12,4 @@ public interface Item {
 }
 ```
 pada interface ini, penerapannya sebagai pola object untuk mengidentifikasi masing-masing kue, seperti name(), packing(), dan price().
+
