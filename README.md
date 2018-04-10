@@ -81,4 +81,29 @@ public abstract class KueKering implements Item {
 ```
 Program diatas mengimplements dari interface item dimana program diatas menjelaskan utk kue kering keluaran packingnya adalah topples dengan harga tertentu
 
+6.Membuat ```implements()``` Item
+```java
+package type;
+
+import util.Item;
+import util.Packing;
+import pack.Daun;
+
+public abstract class KueBasah implements Item {
+
+    @Override
+    public Packing packing() {
+        return new Daun();
+    }
+
+    @Override
+    public abstract float price();
+        
+    
+}
+```
+Program diatas mengimplements dari interface item dimana program diatas menjelaskan utk kuebasag keluaran packingnya adalah Daun dengan harga tertentu
+
+7.
+
 
