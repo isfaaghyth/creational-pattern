@@ -149,6 +149,26 @@ public class Nastar extends KueKering {
 Program diatas mengekstends dari kelas KueKering, dimana pada object ini mendefinisikan kue kering jenis Kukis dan Nastar dengan harga yang berbeda
 
 8. Membuat ```ekstends()``` KueBasah
+```java
+package kue.basah;
+
+import type.KueBasah;
+
+public class Nagosari extends KueBasah {
+
+    @Override
+    public float price() {
+        return 10.0f;
+    }
+
+    @Override
+    public String name() {
+        return "Nagosari";
+    }
+    
+}
+```
+```java
 
 
 
