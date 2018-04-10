@@ -106,7 +106,6 @@ Program diatas mengimplements dari interface item dimana program diatas menjelas
 
 7. Membuat ```extends()``` KueKering
 
-1.
 
 ```java
 package kue.kering;
@@ -127,7 +126,29 @@ public class Kukis extends KueKering {
     
 }
 ```
-2.
+
+```java
+package kue.kering;
+
+import type.KueKering;
+
+public class Nastar extends KueKering {
+
+    @Override
+    public float price() {
+       return 25.0f;
+    }
+
+    @Override
+    public String name() {
+        return "Nastar";
+    }
+    
+}
+```
+Program diatas mengekstends dari kelas KueKering, dimana pada object ini mendefinisikan kue kering jenis Kukis dan Nastar dengan harga yang berbeda
+
+8. Membuat ```ekstends()``` KueBasah
 
 
 
