@@ -190,6 +190,4 @@ public class Pancong extends KueBasah {
 Program diatas mengekstends dari kelas KueBasah, dimana pada object ini mendefinisikan kue basah jenis Nagosari dan Pancong dengan harga yang berbeda
 
 
-
-
-
+Happy coding!
